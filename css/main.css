@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.box {
+    margin: 0 auto;
+    width: 1200px;
+    z-index: 90;
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.5);
+    z-index:100;
+}
+header nav ul {
+    display: flex;
+    justify-content: right;
+    background-color: pink;
+    width: 100%;
+    height: 100px;
+}
+header nav ul li {
+    margin: 0 20px;
+    list-style: none;
+    height: 55px;
+    padding-top: 55px;
+}
+header nav ul li a {
+    color: #fff;
+}
+.mainimg {
+    background: url(../img/mainimg4.png) no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 1085px;
+}
+.typeText {
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Pretendard-Regular';
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.typeText::after {
+    content: "|";
+    animation: blink 1s step infinite;
+    color: #fff;
+    font-weight: lighter;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@font-face {
+font-family: 'Pretendard-Regular';
+src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+font-weight: 400;
+font-style: normal;
+}

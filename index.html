@@ -12,63 +12,77 @@
     <body>
         <header>
             <div class="main_img">
-                <div class="box_inner">
-                    <nav id="header_cont" class="deactive">
-                        <!-- <div class="logo">
-                            <img src="./img/logo.jpg" alt="logo">
-                        </div> -->
-                        <ul class="mainGnb">
-                            <li><a href="#home">HOME</a></li>
-                            <li><a href="#about2">ABOUT</a></li>
-                            <li><a href="#skill">SKILL</a></li>
-                            <li><a href="#project">PROJECT</a>
-                                <ul class="subMenu">
-                                    <li><a href="#">Dear, Klairs</a></li>
-                                    <li><a href="#">Portpolio</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="main_txt" id="home">
-                        <p class="typeText"></p>
-                        <p class="typeText2"></p>
-                    </div>
-                    <div id="section10" class="scroll">
-                        <a href="#about2"><span></span>Scroll</a>
+                <div class="color">
+                    <div class="box_inner">
+                        <nav class="header_cont deactive">
+                            <ul class="mainGnb">
+                                <li><a href="#home">HOME</a></li>
+                                <li><a href="#about2">ABOUT</a></li>
+                                <li><a href="#skill2">SKILL</a></li>
+                                <li><a href="#project2">PROJECT</a>
+                                    <!-- <ul class="subMenu">
+                                        <li><a href="#">Dear, Klairs</a></li>
+                                        <li><a href="#">Portpolio</a></li>
+                                    </ul> -->
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="main_txt" id="home">
+                            <p class="typeText"></p>
+                            <p class="typeText2"></p>
+                        </div>
+                        <div id="section10" class="scroll">
+                            <a href="#about2"><span></span>Scroll</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
         <section>
-            <div class="about" id="about2">
+            <div class="about">
+                <div class="box_inner">
+                    <div class="about_cont" id="about2">
+                        <span class="font_style1">ABOUT ME</span>
+                        <div class="about_img">
+                            <img src="./img/about_me.png" alt="about_me" class="about_me">
+                            <img src="./img/about_me2.png" alt="about_me2" class="about_me2">
+                        </div>
+                        <div class="about_txt"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill"  id="skill2">
+                <div style="width: 100vw; height: 130px; background-color: #fff;" ></div>
+                <div class="box_inner">
+                    <div class="skill_cont">
+                        <span class="font_style2">SKILL</span>
+                    </div>
+                    <div class="tool_cont" id="skill2">
+                        <span class="font_style2">TOOL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="box_inner">
+                    <div class="klairs_cont" id="project2">
+                        <span class="font_style1">Dear, Klairs</span>
+                    </div>
+                </div>
+                <div class="box_inner">
+                    <div class="port_cont" id="project2">
+                        <span class="font_style1">PORTPOLIO</span>
+                    </div>
+                </div>
             </div>
         </section>
-        <footer></footer>
+        <footer>
+            <div class="footer_cont">
+                <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</p>
+                <p>Copyright © 2022. Park, Seo-Kyeong. All Rights Reserved.</p>
+            </div>
+        </footer>
         <script src="./js/main_txt.js"></script>
-        <script>
-            $(function(){
-              // 스크롤 시 header fade-in
-              $(document).on('scroll', function(){
-                  if($(window).scrollTop() > 1300){
-                      $("#header_cont").removeClass("deactive");
-                      $("#header_cont").addClass("active");
-                  }else{
-                      $("#header_cont").removeClass("active");
-                      $("#header_cont").addClass("deactive");
-                  }
-              })
-              });
-
-            // const menu = document.querySelector('#header');
-            // const menuHeight = menu.getBoundingClientRect().height;
-
-            // document.addEventListener('scroll', () => {
-            //     if(window.scrollY > menuHeight) {
-            //         menu.classList.add('active');
-            //     } else {
-            //         menu.classList.remove('active');
-            //     }
-            // });
-          </script>
+        <script src="./js/menu_scroll.js"></script>
+        
     </body>
 </html>

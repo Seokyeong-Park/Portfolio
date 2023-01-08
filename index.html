@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>PORTPOLIO</title>
         <link rel="stylesheet" href="./css/index.css">
-        <link rel="icon" href="./img/favicon_io/favicon-16x16.png">
+        <link rel="icon" href="./img/favicon-16x16.png">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="./js/jquery-3.6.1.js"></script>
        
     </head>
@@ -43,34 +45,180 @@
                 <div class="box_inner">
                     <div class="about_cont" id="about2">
                         <span class="font_style1">ABOUT ME</span>
-                        <div class="about_img">
-                            <img src="./img/about_me.png" alt="about_me" class="about_me">
-                            <img src="./img/about_me2.png" alt="about_me2" class="about_me2">
+                        <div class="about_box">
+                            <div class="about_img">
+                                <img src="./img/about_me.png" alt="about_me" class="about_me">
+                                <img src="./img/about_me2.png" alt="about_me2" class="about_me2">
+                                <img src="./img/hover2.png" alt="" class="hover_me blinking">
+                            </div>
+                            <div class="about_txt">
+                                <table>
+                                    <tr>
+                                        <td class="about_name">Name</td>
+                                        <td class="about_txt2">박서경</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="about_name">Birth</td>
+                                        <td class="about_txt2">1993.08.05</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="about_name">Phone</td>
+                                        <td class="about_txt2">010.4816.3739</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="about_name">E-mail</td>
+                                        <td class="about_txt2">melona1221@naver.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="about_name">Education</td>
+                                        <td class="about_txt2">포항 세잔컴퓨터디자인학원 웹디자인 & 웹퍼블리셔<br>양성과정(2022.08.25 - 2023.01.02)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="about_name">Hobby</td>
+                                        <td class="about_txt2">독서 / 스포츠보기(<img src="./img/ico_baseball.svg" alt=""><img src="./img/ico_volleyballl.svg" alt=""><img src="./img/ico_basketball.svg" alt="">)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="about_name">Github</td>
+                                        <td class="about_txt2"><a href="https://github.com/Seokyeong-Park" target="_blank"><img src="./img/ico_github.svg" alt=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="about_name">Notion</td>
+                                        <td class="about_txt2"><a href="https://sweltering-apple-e64.notion.site/SK-S-Portpolio-0410f0d617e246e998b728de3e3e3be2" target="_blank"><img src="./img/ico_notion.svg" alt=""></a></td>
+                                    </tr>
+                                </table>                         
+                            </div>
                         </div>
-                        <div class="about_txt"></div>
                     </div>
                 </div>
             </div>
             <div class="skill"  id="skill2">
-                <div style="width: 100vw; height: 130px; background-color: #fff;" ></div>
+                <div style="width: 100%; height: 120px; background-color: #fff;" ></div>
                 <div class="box_inner">
                     <div class="skill_cont">
                         <span class="font_style2">SKILL</span>
+                        <div class="skill_box">
+                            <div class="html">
+                                <img src="./img/ico_HTML.png" alt="ico_HTML" class="html_img">
+                            </div>
+                            <div class="css">
+                                <img src="./img/ico_CSS3.png" alt="ico_CSS">
+                            </div>
+                            <div class="javascript">
+                                <img src="./img/ico_javascript.png" alt="ico_javascript">
+                            </div>
+                            <div class="jquery">
+                                <img src="./img/ico_jquery3.png" alt="ico_jquery">
+                            </div>
+                        </div>
                     </div>
                     <div class="tool_cont" id="skill2">
                         <span class="font_style2">TOOL</span>
+                        <div class="tool_box">
+                            <div class="psd">
+                                <img src="./img/ico_psd.png" alt="ico_psd">
+                            </div>
+                            <div class="ai">
+                                <img src="./img/ico_ai.png" alt="ico_ai">
+                            </div>
+                            <div class="vscode">
+                                <img src="./img/ico_vscode.png" alt="ico_vscode">
+                            </div>
+                            <div class="figma">
+                                <img src="./img/ico_figma.png" alt="ico_figma">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="project">
-                <div class="box_inner">
-                    <div class="klairs_cont" id="project2">
-                        <span class="font_style1">Dear, Klairs</span>
+                <div >
+                    <div class="box_inner">
+                        <div class="klairs_cont" id="project2" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
+                            <span class="font_style1">Dear, Klairs</span>
+                            <div class="klairs_box">
+                                <div class="klairs_img">
+                                    <img src="./img/klairs_mockup.png" alt="">
+                                </div>
+                                <div class="klairs_txt">
+                                    <table>
+                                        <tr>
+                                            <td class="pro_name">프로젝트명</td>
+                                            <td class="pro_txt">Dear, Klairs</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pro_name">프로젝트 구성</td>
+                                            <td class="pro_txt">메인 / 서브(클레어스/제품보기)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pro_name">프로젝트 기간</td>
+                                            <td class="pro_txt">2022.11.21 - 2022.12.02</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pro_name">프로젝트 참여도</td>
+                                            <td class="pro_txt">100%(1인 프로젝트)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pro_name">사용언어</td>
+                                            <td class="pro_txt">HTML / CSS / Javascript / Jquery</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="pro_name">TOOL</td>
+                                            <td class="pro_txt">Figma / Photoshop / Illustrator</td>
+                                        </tr>
+                                    </table>
+                                    <div class="klairs_border">
+                                        <div class="border1"><a href="#" target="_blank">Guide</a></div>
+                                        <div class="border2"><a href="#" target="_blank">Prototype</a></div>
+                                        <div class="border3"><a href="https://github.com/Seokyeong-Park/Dear-Klairs" target="_blank">Github</a></div>
+                                        <div class="border4"><a href="http://parksk.dothome.co.kr/dearklairs/" target="_blank">Website</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="box_inner">
                     <div class="port_cont" id="project2">
                         <span class="font_style1">PORTPOLIO</span>
+                        <div class="port_box">
+                            <div class="port_txt">
+                                <table>
+                                    <tr>
+                                        <td class="pro_name">프로젝트명</td>
+                                        <td class="pro_txt">Portpolio</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pro_name">프로젝트 구성</td>
+                                        <td class="pro_txt">원페이지 / 서브(Guide)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pro_name">프로젝트 기간</td>
+                                        <td class="pro_txt">2022.12.12 - </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pro_name">프로젝트 참여도</td>
+                                        <td class="pro_txt">100%(1인 프로젝트)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pro_name">사용언어</td>
+                                        <td class="pro_txt">HTML / CSS / Javascript / Jquery</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pro_name">TOOL</td>
+                                        <td class="pro_txt">Figma / Illustrator</td>
+                                    </tr>
+                                </table>
+                                <div class="port_border">
+                                    <div class="border1"><a href="#" target="_blank">Guide</a></div>
+                                    <div class="border2"><a href="https://www.figma.com/file/Y1K7GdFq43bflKrFxxxVVm/Portpolio-page?node-id=3%3A15&t=I6hRECA3UjBTW3B9-0" target="_blank">Prototype</a></div>
+                                    <div class="border3"><a href="https://github.com/Seokyeong-Park/Portpolio" target="_blank">Github</a></div>
+                                    <div class="border4"><a href="#" target="_blank">Website</a></div>
+                                </div>
+                            </div>
+                            <div class="port_img">
+                                <img src="./img/portpolio_mockup.png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,9 +226,12 @@
         <footer>
             <div class="footer_cont">
                 <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</p>
-                <p>Copyright © 2022. Park, Seo-Kyeong. All Rights Reserved.</p>
+                <p>Copyright &copy; 2023. Park, Seo-Kyeong. All Rights Reserved.</p>
             </div>
         </footer>
+        <script>
+            AOS.init();
+        </script>
         <script src="./js/main_txt.js"></script>
         <script src="./js/menu_scroll.js"></script>
         

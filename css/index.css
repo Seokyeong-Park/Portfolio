@@ -252,7 +252,7 @@ padding-left: 100px;
 }
 .pro_txt {
   padding: 10px 0 10px 20px;
-  font-size: 16px; /* 18px중 고르기 */
+  font-size: 16px;
 }
 .klairs_border {
   display: flex;
@@ -445,10 +445,10 @@ font-weight: bold;
   @media all and (max-width:1500px) and (min-width:769px) {
 
     .box_inner {
-      width: 80vw;
+      width: 1200px;
       height: 100vh;
       margin: 0 auto;
-      /* background-color: lightblue; */
+      background-color: lightblue;
     }
 
     /* ******************************* */
@@ -476,32 +476,77 @@ font-weight: bold;
 
     /* about content */
     .about_cont {
-      padding-top: 80px;
+      padding-top:  120px;
       }
     .about_img {
-      padding-top: 80px;
+      padding-top: 50px;
       }
     .about_me2 {
-      padding-top: 80px;
+      padding-top: 50px;
     }
     .hover_me {
-      top: 480px;
+      top: 430px;
       }
       .about_txt {
-      padding-top: 110px;
+      padding-top: 70px;
+      }
+
+      /* skill content */
+      .skill_cont {
+        padding-top: 70px;
+        padding-left: 100px;
+        }
+        .skill_box {
+          padding-top: 70px;
+        }
+        .html, .psd {
+          padding-right: 200px;
+          padding-left: 50px;
+        }
+        .css, .javascript, .ai, .vscode {
+          padding-right: 200px;
+        }
+        .tool_cont {
+        padding-top: 70px;
+        padding-left: 100px;
+        }
+        .tool_box {
+          display: flex;
+          padding-top: 70px;
+        }
+
+      /* project content */
+      .klairs_cont {
+        padding-top: 150px;
+        padding-left: 100px;
+      }
+      .klairs_img img {
+        padding-top: 60px;
+        padding-right: 100px;
+      }
+      .klairs_txt {
+        padding-top: 130px;
+      }
+      .port_txt {
+        padding-top: 80px;
+      }
+      .port_img img {
+        width: 512px;
+        height: 400px;
+        padding-top: 50px;
       }
 
       /* *********************** */
     .font_style1 {
       color: #1C315E;
       background: linear-gradient(to top, #d6e4e5, transparent 50%);
-      font-size: 60px;
+      font-size: 50px;
       font-weight: bold;
       }
       .font_style2 {
       color: #ffffff;
       background: linear-gradient(to top, #d6e4e5, transparent 50%);
-      font-size: 60px;
+      font-size: 50px;
       font-weight: bold;
       }
     }

@@ -1,0 +1,80 @@
+/* mobile(max-width:768px) */
+@media all and (max-width:768px) {
+    .typeText {
+      font-size: 50px;
+    }
+    .header_cont {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      padding-top: 50px;
+      justify-content: space-evenly;
+      position: fixed;
+      z-index: 10;
+    }
+    .mainGnb li {
+      width: 150px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .mainGnb li a {
+      font-size: 15px;
+      color: #fff;
+      position: relative;
+      display: inline-block;
+    }
+
+    /* about content */
+    .about_cont {
+      padding-top: 110px;
+      padding-left: 100px;
+      }
+      .about_box {
+      display: block;
+      }
+      .about_img {
+      width: 400px;
+      padding-top: 50px;
+      /* border-bottom: 1px solid #333333; */
+      padding-left: 100px;
+      }
+      .about_me {
+        width: 200px;
+        height: 200px;
+      }
+      .about_me2 {
+      padding-top: 50px;
+      width: 200px;
+      height: 250px;
+      margin-left: 100px;
+      }
+      .hover_me {
+      top: 220px;
+      left: 150px;
+      }
+      .about_txt {
+        padding-top: 50px;
+        padding-left: 70px;
+      }
+      .about_name {
+        padding: 5px 0;
+      }
+      .about_txt2 {
+        padding: 5px 0 5px 20px;
+      }
+
+      /* font style */
+      .font_style1 {
+        color: #1C315E;
+        background: linear-gradient(to top, #d6e4e5, transparent 50%);
+        font-size: 60px;
+        font-weight: bold;
+        }
+        .font_style2 {
+        color: #ffffff;
+        background: linear-gradient(to top, #d6e4e5, transparent 50%);
+        font-size: 60px;
+        font-weight: bold;
+        }
+  }

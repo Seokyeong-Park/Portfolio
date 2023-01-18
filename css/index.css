@@ -14,7 +14,7 @@ a{
 }
 .box_inner {
   width: 1200px;
-  height: 100vh;
+  /* height: 100%; */
   margin: 0 auto;
   /* background-color: lightblue; */
 }
@@ -115,7 +115,7 @@ color: #1C315E;
 /* about content */
 .about {
 width: 100%;
-height: 100vh;
+/* height: 100%; */
 background-color: #ffffff;
 }
 .about_cont {
@@ -195,7 +195,7 @@ font-size: 18px;
 /* skill content */
 .skill {
 width: 100%;
-height: 100vh;
+/* height: 100%; */
 background-color: #1C315E;
 }
 .skill_cont {
@@ -203,7 +203,7 @@ padding-top: 100px;
 padding-left: 100px;
 }
 .skill_box {
-  display: flex;
+  /* display: flex; */
   padding-top: 100px;
 }
 .html, .psd {
@@ -223,14 +223,14 @@ padding-left: 100px;
   height: 100px;
 }
 .tool_box {
-  display: flex;
+  /* display: flex; */
   padding-top: 100px;
 }
 
 /* project content */
 .project_cont {
   width: 100%;
-  height: 100vh;
+  /* height: 100%; */
 }
 .klairs_cont {
 padding-top: 250px;

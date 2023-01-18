@@ -50,8 +50,11 @@
       margin-left: 100px;
       }
       .hover_me {
-      top: 220px;
-      left: 150px;
+      top: 200px;
+      left: 230px;
+      transform: rotate(-20deg);
+      width: 150px;
+      height: 150px;
       }
       .about_txt {
         padding-top: 50px;
@@ -63,6 +66,54 @@
       .about_txt2 {
         padding: 5px 0 5px 20px;
       }
+
+      /* skill content */
+      .skill_cont, .tool_cont {
+        padding-top: 50px;
+      }
+      .skill_box, .tool_box {
+        /* display: flex; */
+        padding: 20px 0;
+      }
+      .skill_box li, .tool_box li {
+        display: inline-block;
+        width: 35%;
+        padding: 20px 0;
+      }
+      .html, .psd {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      .css, .javascript, .ai, .vscode {
+        padding-right: 0;
+      }
+
+      /* project content */
+      .klairs_cont,.port_cont {
+        padding-top: 100px;
+        padding-left: 100px;
+        }
+        .klairs_box {
+          display: block;
+        }
+        .klairs_img img {
+          padding-top: 0;
+          /* border-bottom: 3px solid #1C315E; */
+        }
+        .klairs_txt {
+          padding-top: 2px;
+          margin-left: 50px;
+        }
+        .port_box {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+        .port_txt {
+          padding: 20px 0 50px 50px;
+        }
+        .port_img img {
+          padding: 0;
+        }
 
       /* font style */
       .font_style1 {

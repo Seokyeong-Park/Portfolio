@@ -55,21 +55,23 @@
         }
         .skill_box {
           padding-top: 70px;
-        }
-        .html, .psd {
-          padding-right: 200px;
           padding-left: 50px;
         }
-        .css, .javascript, .ai, .vscode {
-          padding-right: 200px;
+        .skill_box li {
+          display: inline-block;
+          width: 20%;
         }
         .tool_cont {
         padding-top: 70px;
         padding-left: 100px;
         }
         .tool_box {
-          display: flex;
           padding-top: 70px;
+          padding-left: 50px;
+        }
+        .tool_box li {
+          display: inline-block;
+          width: 20%;
         }
 
       /* project content */

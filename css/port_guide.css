@@ -93,6 +93,68 @@ a{
     padding-top: 70px;
     width: 100%;
   }
+  .ffffff {
+    display: flex;
+    padding-top: 70px;
+    align-items: center;
+  }
+  .color1, .color2 {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+  }
+  .col_font {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+  }
+  /* icon content */
+  .icon {
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+  .icon_box {
+    display: flex;
+    padding: 70px 0 70px 100px;
+  }
+  .icon_box img {
+    padding-left: 100px;
+  }
+
+  /* wireframe content */
+  .wire_cont {
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+  .wire_txt {
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+  }
+  .wire_txt1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .wire_txt2 {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+
+  /* website content */
+  .web_cont {
+    padding-left: 100px;
+    padding-top: 70px;
+  }
+  .web_img {
+    display: flex;
+    padding-left: 35px;
+    padding-top: 50px;
+  }
+  .web_img img {
+    padding-left: 20px;
+  }
+
   /* ********************* */
   .font_style1 {
     color: #1C315E;

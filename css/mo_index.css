@@ -1,138 +1,176 @@
-/* mobile(max-width:768px) */
-@media all and (max-width:768px) {
-  .box_inner {
-    width: 768px;
-    height: 100%;
-    margin: 0 auto;
-    /* background-color: lightblue; */
-  }
-    .typeText {
-      font-size: 50px;
+/* /* 모바일버전 */
+/* width 767px 이하 */
+@media screen and (max-width : 767px) {
+    .box_inner {
+      width: 100%;
     }
     .header_cont {
       width: 100%;
-      height: 100px;
-      display: flex;
-      padding-top: 50px;
-      justify-content: space-evenly;
-      position: fixed;
-      z-index: 10;
     }
-    .mainGnb li {
-      width: 150px;
-      height: 50px;
-      line-height: 50px;
-      text-align: center;
+    .mainGnb {
+      /* margin-left: auto; */
+      width: 100%;
+      height: 100%;  
     }
     .mainGnb li a {
-      font-size: 15px;
-      color: #fff;
-      position: relative;
-      display: inline-block;
+      font-size: 16px;
     }
-
+    .typeText {
+      font-size: 25px;
+    }
+  
     /* about content */
     .about_cont {
-      padding-top: 110px;
-      padding-left: 100px;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .about_box {
+      flex-direction: column;
+      align-items: center;
       }
-      .about_box {
-      display: block;
-      }
-      .about_img {
-      width: 400px;
+    .about_img {
+      width: 300px;
       padding-top: 50px;
-      /* border-bottom: 1px solid #333333; */
-      padding-left: 100px;
-      }
-      .about_me {
-        width: 200px;
-        height: 200px;
-      }
-      .about_me2 {
-      padding-top: 50px;
-      width: 200px;
+      margin-right: 0;
+    }
+    .about_me, .about_me2 {
+      width: 250px;
       height: 250px;
-      margin-left: 100px;
+    }
+    .about_txt {
+      text-align: left;
+    }
+    .about_me2 {
+      margin-top: 50px;
+      margin-left: 30px;
+    }
+    .hover_me {
+      top: 290px;
+      left: 100px;
+      width: 100px;
+      height: 100px;
+  
+    }
+    .about_txt {
+      padding-top: 70px;
+    }
+    
+    /* skill content */
+    .skill_cont {
+      padding-top: 50px;
+      padding-left: 20px;
+      text-align: center;
+      /* margin: 0 auto; */
+    }
+    .skill_box {
+      justify-content: center;
+    }
+    .html, .psd {
+      padding-right: 0;
+      padding-left: 0;
+      padding-bottom: 20px;
+    }
+    .javascript {
+      padding-left: 0;
+    }
+    .tool_cont {
+      padding-top: 50px;
+      padding-left: 20px;
+      text-align: center;
+    }
+    .tool_box {
+      justify-content: center;
+    }
+    .vscode {
+      padding-left: 0;
+    }
+    .psd, .ai {
+      padding-bottom: 20px;
+    }
+    .css, .javascript, .ai, .vscode {
+      padding-right: 0;
+    }
+    .html img, .css img, .javascript img, .jquery img,
+    .psd img, .ai img, .vscode img, .figma img {
+      width: 50px;
+      height: 70px;
+    }
+    .html, .css, .javascript, .jquery,
+    .psd, .ai, .vscode, .figma {
+      margin-right: 30px;
+    }
+  
+    /* project content */
+    .klairs_cont {
+      padding-top: 50px;
+      padding-left: 0;
+      text-align: center;
       }
-      .hover_me {
-      top: 200px;
-      left: 230px;
-      transform: rotate(-20deg);
-      width: 150px;
-      height: 150px;
+    .klairs_box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .klairs_img img {
+      width: 300px;
+      height: 300px;
+      padding-right: 0;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .klairs_txt {
+      padding-top: 50px;
+    }
+    .port_cont {
+      padding-top: 50px;
+      padding-left: 0px;
+      text-align: center;
+    }
+    .port_box {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .port_txt {
+      padding-top: 50px;
+    }
+    .port_img img {
+      padding-top: 50px;
+      padding-left: 0;
+      width: 300px;
+      height: 300px;
+    }
+    .aslib_cont {
+      padding-top: 50px;
+      padding-left: 0;
+      text-align: center;
       }
-      .about_txt {
-        padding-top: 50px;
-        padding-left: 70px;
-      }
-      .about_name {
-        padding: 5px 0;
-      }
-      .about_txt2 {
-        padding: 5px 0 5px 20px;
-      }
-
-      /* skill content */
-      .skill_cont, .tool_cont {
-        padding-top: 50px;
-      }
-      .skill_box, .tool_box {
-        /* display: flex; */
-        padding: 20px 0;
-      }
-      .skill_box li, .tool_box li {
-        display: inline-block;
-        width: 35%;
-        padding: 20px 0;
-      }
-      .html, .psd {
-        padding-right: 0;
-        padding-left: 0;
-      }
-      .css, .javascript, .ai, .vscode {
-        padding-right: 0;
-      }
-
-      /* project content */
-      .klairs_cont,.port_cont {
-        padding-top: 100px;
-        padding-left: 100px;
-        }
-        .klairs_box {
-          display: block;
-        }
-        .klairs_img img {
-          padding-top: 0;
-          padding-right: 0;
-          /* border-bottom: 3px solid #1C315E; */
-        }
-        .klairs_txt {
-          padding-top: 2px;
-          margin-left: 50px;
-        }
-        .port_box {
-          display: flex;
-          flex-direction: column-reverse;
-        }
-        .port_txt {
-          padding: 20px 0 50px 50px;
-        }
-        .port_img img {
-          padding: 0;
-        }
-
-      /* font style */
-      .font_style1 {
-        color: #1C315E;
-        background: linear-gradient(to top, #d6e4e5, transparent 50%);
-        font-size: 60px;
-        font-weight: bold;
-        }
-        .font_style2 {
-        color: #ffffff;
-        background: linear-gradient(to top, #d6e4e5, transparent 50%);
-        font-size: 60px;
-        font-weight: bold;
-        }
+    .aslib_box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .aslib_img img {
+      width: 300px;
+      height: 300px;
+      padding-right: 0;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .aslib_txt {
+      padding-top: 50px;
+    }
+  
+    /* footer content */
+    .footer_cont p {
+      font-size: 14px;
+    }
+  
+    /* font_style */
+    .font_style1 {
+      font-size: 50px;
+    }
+    .font_style2 {
+      font-size: 50px;
+    }
+    
   }

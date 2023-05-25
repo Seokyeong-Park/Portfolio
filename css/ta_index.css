@@ -1,0 +1,128 @@
+/* 태플릿버전 */
+/* width 768px ~ 1023px */
+@media screen and (max-width : 1023px) and (min-width:768px) {
+    .box_inner {
+      width: 100%;
+      /* height: 100vh; */
+    }
+    .header_cont {
+      width: 100%;
+    }
+    .typeText {
+      font-size: 38px;
+    }
+  
+    /* about content */
+    .about_cont {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .about_img {
+      padding-top: 80px;
+      margin-right: 0;
+    }
+    .about_me, .about_me2 {
+      width: 300px;
+      height: 300px;
+    }
+    .about_txt {
+      text-align: left;
+    }
+    .about_me2 {
+      margin-top: 80px;
+    }
+    .hover_me {
+      top: 370px;
+      left: 100px;
+      transform: rotate(10deg);
+  
+    }
+    .about_txt {
+      padding-top: 70px;
+    }
+  
+    /* skill content */
+    .skill_cont {
+      padding-top: 50px;
+      /* text-align: center; */
+      margin: 0 auto;
+    }
+    .html, .psd {
+      padding-right: 200px;
+      padding-left: 50px;
+      padding-bottom: 20px;
+    }
+    .javascript {
+      padding-left: 50px;
+    }
+    .tool_cont {
+      padding-top: 50px;
+      }
+    .vscode {
+      padding-left: 50px;
+    }
+    .psd, .ai {
+      padding-bottom: 20px;
+    }
+  
+    /* project content */
+    .klairs_cont {
+      padding-top: 100px;
+      padding-left: 0;
+      text-align: center;
+    }
+    .klairs_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .klairs_img img {
+      padding-right: 0;
+    }
+    .klairs_txt {
+        padding-top: 50px;
+    }
+    .port_cont {
+      padding-top: 100px;
+      padding-left: 0;
+      padding-bottom: 50px;
+      text-align: center;
+    }
+    .port_box {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .port_txt {
+        padding-top: 50px;
+    }
+    .port_img img {
+        padding-top: 50px;
+        padding-left: 0;
+        width: 500px;
+        height: 500px;
+    }
+    .aslib_cont {
+      padding-top: 100px;
+      padding-left: 0;
+      text-align: center;
+    }
+    .aslib_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aslib_img img {
+      padding-right: 0;
+    }
+    .aslib_txt {
+        padding-top: 50px;
+    }
+  
+    .font_style1 {
+      font-size: 60px;
+      }
+      .font_style2 {
+      font-size: 60px;
+      }
+  }

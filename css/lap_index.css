@@ -1,0 +1,124 @@
+/* laptop 버전 */
+/* width 1024px ~ 1439px */
+@media screen and (max-width : 1439px) and (min-width : 1024px) {
+    .box_inner {
+      width: 100%;
+      height: 100vh;
+    }
+  
+    /* ******************************* */
+    .header_cont {
+      width: 100%;
+    }
+    .typeText {
+      color: #fff;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: 'Pretendard-Regular';
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .typeText::after {
+      content: "|";
+      animation: blink 1s step infinite;
+      color: #fff;
+      font-weight: lighter;
+    }
+  
+    /* about content */
+    .about_cont {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    .about_img {
+      padding-top: 80px;
+      margin-right: 0;
+    }
+    .about_me, .about_me2 {
+      width: 300px;
+      height: 300px;
+    }
+    .about_me2 {
+      margin-top: 80px;
+    }
+    .hover_me {
+      top: 370px;
+      left: 120px;
+      transform: rotate(10deg);
+    }
+    .about_txt {
+      padding-top: 70px;
+    }
+  
+    /* skill_cont */
+    .skill_cont {
+      padding-top: 100px;
+      padding-left: 50px;
+    }
+    .skill_box {
+      display: flex;
+      padding-top: 50px;
+    }
+    .tool_cont {
+      padding-top: 100px;
+      padding-left: 50px;
+    }
+    .tool_box {
+      display: flex;
+      padding-top: 50px;
+    }
+  
+    /* project content */
+    .klairs_cont {
+      padding-top: 100px;
+      padding-left: 50px;
+    }
+    .klairs_img img {
+      padding-right: 50px;
+    }
+    .port_cont {
+      padding-top: 100px;
+      padding-left: 50px;
+    }
+    .port_txt {
+      padding-top: 120px;
+    }
+    .port_img img {
+      padding-top: 50px;
+      padding-left: 50px;
+      width: 500px;
+      height: 500px;
+    }
+    .aslib_cont {
+      padding-top: 100px;
+      padding-left: 50px;
+    }
+    .aslib_img img {
+      width: 500px;
+      height: 500px;
+      padding-right: 50px;
+      padding-top: 50px;
+    }
+    .aslib_txt {
+      padding-top: 100px;
+    }
+          
+  
+    /* *********************** */
+    .font_style1 {
+      color: #1C315E;
+      background: linear-gradient(to top, #d6e4e5, transparent 50%);
+      font-size: 60px;
+      font-weight: bold;
+    }
+    .font_style2 {
+      color: #ffffff;
+      background: linear-gradient(to top, #d6e4e5, transparent 50%);
+      font-size: 60px;
+      font-weight: bold;
+    }
+  }
+  

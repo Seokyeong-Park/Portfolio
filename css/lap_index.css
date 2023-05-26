@@ -3,7 +3,7 @@
 @media screen and (max-width : 1439px) and (min-width : 1024px) {
     .box_inner {
       width: 100%;
-      height: 100vh;
+      /* height: 100vh; */
     }
   
     /* ******************************* */
@@ -43,7 +43,7 @@
     }
     .about_me2 {
       margin-top: 80px;
-    }
+      }
     .hover_me {
       top: 370px;
       left: 120px;
@@ -56,7 +56,7 @@
     /* skill_cont */
     .skill_cont {
       padding-top: 100px;
-      padding-left: 50px;
+      /* padding-left: 50px; */
     }
     .skill_box {
       display: flex;
@@ -64,7 +64,7 @@
     }
     .tool_cont {
       padding-top: 100px;
-      padding-left: 50px;
+      /* padding-left: 50px; */
     }
     .tool_box {
       display: flex;
@@ -72,17 +72,10 @@
     }
   
     /* project content */
-    .klairs_cont {
-      padding-top: 100px;
-      padding-left: 50px;
-    }
     .klairs_img img {
       padding-right: 50px;
     }
-    .port_cont {
-      padding-top: 100px;
-      padding-left: 50px;
-    }
+    
     .port_txt {
       padding-top: 120px;
     }
@@ -92,10 +85,10 @@
       width: 500px;
       height: 500px;
     }
-    .aslib_cont {
+    /* .aslib_cont {
       padding-top: 100px;
       padding-left: 50px;
-    }
+    } */
     .aslib_img img {
       width: 500px;
       height: 500px;

@@ -102,8 +102,9 @@
   
     /* project content */
     .klairs_cont {
-      padding-top: 50px;
-      padding-left: 0;
+      padding: 100px 20px;
+      /* padding-top: 50px;
+      padding-left: 0; */
       text-align: center;
       }
     .klairs_box {
@@ -121,14 +122,18 @@
     .klairs_txt {
       padding-top: 50px;
     }
+
     .port_cont {
-      padding-top: 50px;
-      padding-left: 0px;
+      padding: 100px 20px;
+      /* padding-top: 50px;
+      padding-left: 0px; */
       text-align: center;
     }
     .port_box {
+      display: flex;
       flex-direction: column-reverse;
-      align-items: center;
+      /* align-items: center; */
+      justify-content: center;
     }
     .port_txt {
       padding-top: 50px;
@@ -139,9 +144,11 @@
       width: 300px;
       height: 300px;
     }
+    
     .aslib_cont {
-      padding-top: 50px;
-      padding-left: 0;
+      padding: 100px 20px;
+      /* padding-top: 50px;
+      padding-left: 0; */
       text-align: center;
       }
     .aslib_box {

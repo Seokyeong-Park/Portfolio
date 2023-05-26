@@ -14,12 +14,13 @@
   
     /* about content */
     .about_cont {
-      padding: 80px 20px;
+      padding: 80px 0 80px;
       text-align: center;
     }
     .about_img {
       padding-top: 80px;
       margin-right: 0;
+      text-align: center;
     }
     .about_me, .about_me2 {
       width: 300px;
@@ -30,6 +31,8 @@
     }
     .about_me2 {
       margin-top: 80px;
+      margin-left: 50px;
+      text-align: center;
     }
     .hover_me {
       top: 370px;
@@ -48,18 +51,21 @@
       margin: 0 auto;
     }
     .html, .psd {
-      padding-right: 200px;
-      padding-left: 50px;
+      padding-right: 0;
+      padding-left: 0;
       padding-bottom: 20px;
     }
+    .css, .javascript, .ai, .vscode {
+      padding-right: 0;
+    }
     .javascript {
-      padding-left: 50px;
+      padding-left: 0;
     }
     .tool_cont {
       padding-top: 50px;
       }
     .vscode {
-      padding-left: 50px;
+      padding-left: 0;
     }
     .psd, .ai {
       padding-bottom: 20px;
@@ -67,25 +73,27 @@
   
     /* project content */
     .klairs_cont {
-      padding-top: 100px;
-      padding-left: 0;
+      padding: 100px 0 50px;
+      /* padding-top: 100px;
+      padding-left: 0; */
       text-align: center;
     }
     .klairs_box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .klairs_img img {
       padding-right: 0;
     }
     .klairs_txt {
-        padding-top: 50px;
+      padding-top: 50px;
     }
     .port_cont {
-      padding-top: 100px;
+      padding: 100px 0 50px;
+      /* padding-top: 100px;
       padding-left: 0;
-      padding-bottom: 50px;
+      padding-bottom: 50px; */
       text-align: center;
     }
     .port_box {
@@ -103,8 +111,9 @@
         height: 500px;
     }
     .aslib_cont {
-      padding-top: 100px;
-      padding-left: 0;
+      padding: 100px 0 50px;
+      /* padding-top: 100px;
+      padding-left: 0; */
       text-align: center;
     }
     .aslib_box {

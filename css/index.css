@@ -116,44 +116,47 @@ color: #1C315E;
 
 /* about content */
 .about {
-width: 100%;
-/* height: 850px; */
-background-color: #ffffff;
+  width: 100%;
+  /* height: 850px; */
+  background-color: #ffffff;
 }
 .about_cont {
-padding-top: 100px;
-padding-left: 100px;
-padding-bottom: 100px;
-/* vertical-align: middle; */
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  /* vertical-align: middle; */
 }
 .about_box {
-display: flex;
+  display: flex;
+  justify-content: center;
 }
 .about_img {
-width: 400px;
-padding-top: 100px;
-margin-right: 100px;
-position: relative;
-}
+  width: 400px;
+  padding-top: 100px;
+  margin-right: 100px;
+  position: relative;
+  }
 .about_me2 {
-position: absolute;
-top: 0;
-left: 0;
-margin-top: 100px;
-opacity: 0;
-transition: opacity 1s linear;
-cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 100px;
+  opacity: 0;
+  transition: opacity 1s linear;
+  cursor: pointer;
 }
 .about_img:hover .about_me2 {
-opacity: 1;
+  opacity: 1;
 }
 .hover_me {
-position: absolute;
-top: 490px;
-left: 150px;
-width: 120px;
-height: 120px;
-/* transform: rotate(60deg); */
+  position: absolute;
+  top: 490px;
+  left: 150px;
+  width: 120px;
+  height: 120px;
+  /* transform: rotate(60deg); */
 }
 .blinking {
   -webkit-animation: blink 0.7s ease-in-out infinite alternate;
@@ -186,6 +189,7 @@ height: 120px;
 }
 .about_txt {
 padding-top: 100px;
+text-align: left;
 }
 .about_name {
   font-weight: bold;
@@ -193,6 +197,10 @@ padding-top: 100px;
 }
 .about_txt2 {
   padding: 10px 0 10px 20px;
+}
+.ico {
+  width: 25px;
+  height: 25px;
 }
 /* .about p {
 font-weight: bold;
@@ -208,24 +216,27 @@ padding-bottom: 100px;
 }
 .skill_cont {
 padding-top: 100px;
-padding-left: 100px;
+/* padding-left: 100px; */
+text-align: center;
 }
 .skill_box {
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 70px;
 }
-.html, .psd {
+/* .html, .psd {
   padding-right: 200px;
   padding-left: 50px;
-}
+} */
 
-.css, .javascript, .ai, .vscode {
+/* .css, .javascript, .ai, .vscode {
   padding-right: 200px;
-}
+} */
 .tool_cont {
 padding-top: 100px;
-padding-left: 100px;
+/* padding-left: 100px; */
+text-align: center;
 }
 .html img, .css img, .javascript img, .jquery img,
 .psd img, .ai img, .vscode img, .figma img {
@@ -234,6 +245,7 @@ padding-left: 100px;
 }
 .tool_box {
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 70px;
 }
@@ -241,14 +253,16 @@ padding-left: 100px;
 /* project content */
 .project_cont {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .klairs_cont {
-padding-top: 150px;
-padding-left: 100px;
+padding: 150px 50px 100px;
+/* padding-left: 100px; */
+text-align: center;
 }
 .klairs_box {
   display: flex;
+  justify-content: center;
 }
 .klairs_img img {
   padding-top: 100px;
@@ -256,6 +270,7 @@ padding-left: 100px;
 }
 .klairs_txt {
   padding-top: 160px;
+  text-align: left;
 }
 .pro_name {
   font-weight: bold;
@@ -267,6 +282,7 @@ padding-left: 100px;
 }
 .klairs_border {
   display: flex;
+  /* justify-content: center; */
   padding-top: 10px;
   padding-left: 10px;
 }
@@ -281,17 +297,22 @@ padding-left: 100px;
 .border1, .border2, .border3 {
   margin-right: 20px;
 }
+
 .port_cont {
-padding-top: 100px;
-padding-left: 100px;
-padding-bottom: 50px;
+padding: 50px 100px;
+/* padding-left: 100px;
+padding-bottom: 50px; */
+text-align: center;
 }
 .port_box {
   display: flex;
+  justify-content: center;
+  /* align-items: center; */
   /* flex-wrap: wrap; */
 }
 .port_txt {
   padding-top: 160px;
+  text-align: left;
 }
 .port_border{
   display: flex;
@@ -304,15 +325,18 @@ padding-bottom: 50px;
 }
 
 .aslib_cont {
-  padding-top: 50px;
-  padding-left: 100px;
-  padding-bottom: 100px;
+  padding: 100px 50px;
+  /* padding-left: 100px;
+  padding-bottom: 100px; */
+  text-align: center;
 }
 .aslib_box {
     display: flex;
+    justify-content: center;
 }
 .aslib_txt {
     padding-top: 160px;
+    text-align: left;
 }
 .aslib_border{
     display: flex;

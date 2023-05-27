@@ -56,115 +56,55 @@
     }
     
     /* skill content */
-    .skill_cont {
-      padding-top: 50px;
-      padding-left: 20px;
-      text-align: center;
-      /* margin: 0 auto; */
+    .skill {
+      padding: 70px 0;
     }
-    .skill_box {
-      justify-content: center;
-    }
-    .html, .psd {
-      padding-right: 0;
-      padding-left: 0;
-      padding-bottom: 20px;
-    }
-    .javascript {
-      padding-left: 0;
+    .skill_box, .tool_box {
+      padding-top: 70px;
     }
     .tool_cont {
-      padding-top: 50px;
-      padding-left: 20px;
-      text-align: center;
-    }
-    .tool_box {
-      justify-content: center;
-    }
-    .vscode {
-      padding-left: 0;
-    }
-    .psd, .ai {
-      padding-bottom: 20px;
-    }
-    .css, .javascript, .ai, .vscode {
-      padding-right: 0;
+      padding-top: 70px;
     }
     .html img, .css img, .javascript img, .jquery img,
     .psd img, .ai img, .vscode img, .figma img {
       width: 50px;
       height: 70px;
     }
-    .html, .css, .javascript, .jquery,
-    .psd, .ai, .vscode, .figma {
-      margin-right: 30px;
-    }
   
     /* project content */
-    .klairs_cont {
-      padding: 100px 20px;
-      /* padding-top: 50px;
-      padding-left: 0; */
-      text-align: center;
+    .klairs_cont, .port_cont {
+      padding: 100px 20px 0;
       }
-    .klairs_box {
-      display: flex;
+    .klairs_box, .aslib_box {
       flex-direction: column;
       align-items: center;
     }
-    .klairs_img img {
+    .klairs_img img, .aslib_img img {
       width: 300px;
       height: 300px;
       padding-right: 0;
       padding-top: 0;
       margin-top: 0;
     }
-    .klairs_txt {
+    .klairs_txt, .port_txt, .aslib_txt {
       padding-top: 50px;
     }
-
-    .port_cont {
-      padding: 100px 20px;
-      /* padding-top: 50px;
-      padding-left: 0px; */
-      text-align: center;
-    }
-    .port_box {
-      display: flex;
-      flex-direction: column-reverse;
-      /* align-items: center; */
+    .pro_border {
       justify-content: center;
     }
-    .port_txt {
-      padding-top: 50px;
+
+    .port_box {
+      flex-direction: column-reverse;
     }
     .port_img img {
-      padding-top: 50px;
+      padding-top: 0;
       padding-left: 0;
       width: 300px;
       height: 300px;
     }
-    
+
     .aslib_cont {
       padding: 100px 20px;
-      /* padding-top: 50px;
-      padding-left: 0; */
-      text-align: center;
-      }
-    .aslib_box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .aslib_img img {
-      width: 300px;
-      height: 300px;
-      padding-right: 0;
-      padding-top: 0;
-      margin-top: 0;
-    }
-    .aslib_txt {
-      padding-top: 50px;
     }
   
     /* footer content */

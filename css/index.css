@@ -41,7 +41,6 @@ a{
 }
 .mainGnb {
   display: flex;
-  /* margin-left: auto; */
   width: 600px;
   height: 100%;  
 }
@@ -72,61 +71,16 @@ a{
   width: 100%;
   transition: 0.5s all;
 }
-/* .mainGnb li a:hover {
-  border-bottom: 3px solid #fff;
-} */
-/* .mainGnb li .subMenu {
-  display: none;
-}
-.mainGnb li:hover .subMenu {
-  display: block;
-}
-
-.mainGnb li .subMenu li {
-  
-  color: #fff;
-}
-.mainGnb li .subMenu li a {
-  font-size: 16px;
-} */
-
-/* 스크롤 내렸을때 css .active */
-/* .active {
-font-weight: bold;
-transition-duration: 0.5s;
-transition-timing-function: ease;
--webkit-transition-duration: 0.4s;
--webkit-transition-timing-function: ease;
-}
-.deactive {
-color: #ffffff;
-transition-duration: 0.5s;
-transition-timing-function: ease;
--webkit-transition-duration: 0.4s;
--webkit-transition-timing-function: ease;
-}
-.header_cont.active .mainGnb li a {
-color: #1C315E;
-} */
-
-
-/* .mainGnb li .subMenu li:hover {
-  background-color: aqua;
-} */
 
 /* about content */
 .about {
   width: 100%;
-  /* height: 850px; */
   background-color: #ffffff;
 }
 .about_cont {
   width: 100%;
-  padding-top: 100px;
-  padding-left: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
   text-align: center;
-  /* vertical-align: middle; */
 }
 .about_box {
   display: flex;
@@ -198,44 +152,24 @@ text-align: left;
 .about_txt2 {
   padding: 10px 0 10px 20px;
 }
-.ico {
-  width: 25px;
-  height: 25px;
-}
-/* .about p {
-font-weight: bold;
-font-size: 18px;
-} */
 
 /* skill content */
 .skill {
 width: 100%;
-/* height: 100vh; */
 background-color: #1C315E;
-padding-bottom: 100px;
+padding: 100px 0;
 }
 .skill_cont {
-padding-top: 100px;
-/* padding-left: 100px; */
 text-align: center;
 }
 .skill_box {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 70px;
+  padding-top: 100px;
 }
-/* .html, .psd {
-  padding-right: 200px;
-  padding-left: 50px;
-} */
-
-/* .css, .javascript, .ai, .vscode {
-  padding-right: 200px;
-} */
 .tool_cont {
 padding-top: 100px;
-/* padding-left: 100px; */
 text-align: center;
 }
 .html img, .css img, .javascript img, .jquery img,
@@ -247,20 +181,18 @@ text-align: center;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 /* project content */
 .project_cont {
   width: 100%;
-  /* height: 100vh; */
 }
 .klairs_cont {
 padding: 150px 50px 100px;
-/* padding-left: 100px; */
 text-align: center;
 }
-.klairs_box {
+.klairs_box, .port_box, .aslib_box {
   display: flex;
   justify-content: center;
 }
@@ -268,7 +200,7 @@ text-align: center;
   padding-top: 100px;
   padding-right: 100px;
 }
-.klairs_txt {
+.klairs_txt, .port_txt, .aslib_txt {
   padding-top: 160px;
   text-align: left;
 }
@@ -280,9 +212,8 @@ text-align: center;
   padding: 10px 0 10px 20px;
   font-size: 16px; /* 18px중 고르기 */
 }
-.klairs_border {
+.pro_border {
   display: flex;
-  /* justify-content: center; */
   padding-top: 10px;
   padding-left: 10px;
 }
@@ -300,24 +231,7 @@ text-align: center;
 
 .port_cont {
 padding: 50px 100px;
-/* padding-left: 100px;
-padding-bottom: 50px; */
 text-align: center;
-}
-.port_box {
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  /* flex-wrap: wrap; */
-}
-.port_txt {
-  padding-top: 160px;
-  text-align: left;
-}
-.port_border{
-  display: flex;
-  padding-top: 10px;
-  padding-left: 10px;
 }
 .port_img img {
   padding-top: 50px;
@@ -326,22 +240,7 @@ text-align: center;
 
 .aslib_cont {
   padding: 100px 50px;
-  /* padding-left: 100px;
-  padding-bottom: 100px; */
   text-align: center;
-}
-.aslib_box {
-    display: flex;
-    justify-content: center;
-}
-.aslib_txt {
-    padding-top: 160px;
-    text-align: left;
-}
-.aslib_border{
-    display: flex;
-    padding-top: 10px;
-    padding-left: 10px;
 }
 .aslib_img img {
     padding-top: 100px;
@@ -489,6 +388,11 @@ text-align: center;
   background: linear-gradient(to top, #d6e4e5, transparent 50%);
   font-size: 80px;
   font-weight: bold;
+}
+
+.page {
+  color: #1C315E;
+  text-decoration: underline;
 }
 
 /* font */
